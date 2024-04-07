@@ -9,6 +9,7 @@ export const routes: Routes = [
     },
     {
         path: 'create-product',
-        component: CreateComponent
+        //component: CreateComponent //chamada normal
+        loadComponent: () => import('./features/create/create.component').then(m => m.CreateComponent), //chamada usando lazy loading
     }
 ];
