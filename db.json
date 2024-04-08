@@ -1,16 +1,24 @@
 {
-    "products":[
-        {
-            "id": "1",
-            "title": "Tênis"
-        },
-        {
-            "id":"2",
-            "title": "Calça"
-        },
-        {
-            "id":"3",
-            "title": "Boné"
-        }
-    ]
+  "products": [
+    {
+      "id": "1",
+      "title": "Tênis"
+    },
+    {
+      "id": "2",
+      "title": "Calça"
+    },
+    {
+      "id": "3",
+      "title": "Boné"
+    },
+    {
+      "id": "9f8b",
+      "title": "rodolfo"
+    },
+    {
+      "id": "37f4",
+      "title": "Camisa"
+    }
+  ]
 }
