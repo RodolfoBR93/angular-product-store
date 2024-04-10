@@ -13,11 +13,11 @@ import { Product } from '../../../../shared/interfaces/product.interface';
 export class CardComponent {
   product = input.required<Product>()
 
-  @Output() edit = new EventEmitter();
+  @Output() edit_product = new EventEmitter();
 
   productTitle = computed (() => this.product().title)
 
   onEdit(){
-    this.edit.emit();
+    this.edit_product.emit();
   }
 }
