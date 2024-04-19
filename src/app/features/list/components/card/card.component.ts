@@ -12,12 +12,17 @@ import { Product } from '../../../../shared/interfaces/product.interface';
 })
 export class CardComponent {
   product = input.required<Product>()
-
+  
   @Output() edit_product = new EventEmitter();
-
+  @Output() delete_product = new EventEmitter();
+  
   productTitle = computed (() => this.product().title)
-
+  
   onEdit(){
     this.edit_product.emit();
+  }
+
+  onDelete() {
+    this.delete_product.emit();
   }
 }
