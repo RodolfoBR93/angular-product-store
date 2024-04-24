@@ -1,10 +1,6 @@
 {
   "products": [
     {
-      "id": "2",
-      "title": "Calça"
-    },
-    {
       "id": "3",
       "title": "Boné"
     },
@@ -13,8 +9,12 @@
       "title": "Camisa"
     },
     {
-      "id": "0533",
-      "title": "bermuda"
+      "id": "bcd2",
+      "title": "Calça"
+    },
+    {
+      "id": "d69c",
+      "title": "Calça"
     }
   ]
 }
