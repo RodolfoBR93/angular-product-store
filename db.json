@@ -1,3 +1,12 @@
 {
-  "products": []
+  "products": [
+    {
+      "title": "Sandália",
+      "id": "49f0"
+    },
+    {
+      "id": "8c54",
+      "title": "Mochila"
+    }
+  ]
 }
