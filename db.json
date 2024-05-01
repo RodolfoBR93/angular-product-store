@@ -1,20 +1,3 @@
 {
-  "products": [
-    {
-      "id": "3",
-      "title": "Boné"
-    },
-    {
-      "id": "37f4",
-      "title": "Camisa"
-    },
-    {
-      "id": "bcd2",
-      "title": "Calça"
-    },
-    {
-      "id": "d69c",
-      "title": "Calça"
-    }
-  ]
+  "products": []
 }
